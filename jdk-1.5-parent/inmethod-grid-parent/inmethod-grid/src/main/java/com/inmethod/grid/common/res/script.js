@@ -1508,7 +1508,7 @@ InMethod.XTable.prototype = {
 			var cell = elements[i];
 			if (cell.imxtInitialized != true) {
 				//var addListener = function(element, event, fn, obj, override) {				
-				addListener(cell, "click", this.initCellsEventHandler, this, false);
+				addListener(cell, "mouseup", this.initCellsEventHandler, this, false);
 				cell.imxtInitialized = true;
 			}
 		}

@@ -377,7 +377,7 @@ public abstract class AbstractColumn implements IGridColumn
      * fit the column (<code>false</code> by default).
      * 
      * @param wrapText
-     *            <code>true<code> if the text will be wrapped, <code>false</code>
+     *            <code>true</code> if the text will be wrapped, <code>false</code>
      *            otherwise.
      * @return <code>this</code> (useful for method chaining)
      */

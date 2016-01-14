@@ -15,7 +15,7 @@ import com.inmethod.grid.IRenderable;
  * method necessary to implement is {@link #newCell(IModel)}.
  * <p>
  * 
- * @see EditablePropertyColumn
+ * @see com.inmethod.grid.column.editable.EditablePropertyColumn
  * @author Matej Knopp
  */
 public abstract class AbstractLightWeightColumn extends AbstractColumn {

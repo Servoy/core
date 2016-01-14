@@ -696,7 +696,7 @@ public abstract class AbstractGrid extends Panel implements IHeaderContributor {
 		if (disableRowClickNotifications())
 			return;
 
-		rowComponent.add(new AjaxFormSubmitBehavior(getForm(), "onclick") {
+		rowComponent.add(new AjaxFormSubmitBehavior(getForm(), "onmouseup") {
 
 			private static final long serialVersionUID = 1L;
 
@@ -894,8 +894,7 @@ public abstract class AbstractGrid extends Panel implements IHeaderContributor {
 	 * Marks the item from the given model as dirty. Dirty items are updated during Ajax requests
 	 * when {@link AbstractGrid#update()} method is called.
 	 * 
-	 * @param itemModel
-	 *            model used to access the item
+	 * @param model used to access the item
 	 */
 	public abstract void markItemDirty(IModel model);
 

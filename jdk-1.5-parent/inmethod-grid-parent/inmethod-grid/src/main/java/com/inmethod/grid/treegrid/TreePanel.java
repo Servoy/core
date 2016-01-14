@@ -139,8 +139,8 @@ public abstract class TreePanel extends Panel {
 	protected abstract Component newNodeComponent(String id, IModel model);
 
 	/**
-	 * Very simple border that adds a proper
-	 * <td></td>
+	 * Very simple border that adds a proper td
+	 * 
 	 * around an icon
 	 * 
 	 * @author Matej Knopp

@@ -118,7 +118,7 @@ public class PropertyColumn extends AbstractLightWeightColumn
      * Returns whether the markup will be escaped.
      * 
      * @return
-     *         <code>true</code. if the markup will be escaped, <code>false</code>
+     *         <code>true</code>. if the markup will be escaped, <code>false</code>
      *         otherwise
      */
     public boolean isEscapeMarkup()
